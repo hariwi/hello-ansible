@@ -6,7 +6,7 @@
   tasks:
 
   - name: latest Apache version installed
-    yum:
+    dnf:
       name: httpd
       state: latest
 
