@@ -1,8 +1,6 @@
 ---
 - name: Apache server installed
   hosts: 192.168.122.41
-  gather_facts: false
-  become: yes
   tasks:
 
   - name: latest Apache version installed
