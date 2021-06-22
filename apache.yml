@@ -1,6 +1,6 @@
 ---
 - name: Apache server installed
-  hosts: web
+  hosts: 192.168.122.41
   gather_facts: false
   become: yes
   tasks:
