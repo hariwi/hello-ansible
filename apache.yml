@@ -1,6 +1,6 @@
 ---
 - name: Apache server installed
-  host: rhelhost1
+  hosts: rhelhost1
   gather_facts: false
   become: yes
   tasks:
